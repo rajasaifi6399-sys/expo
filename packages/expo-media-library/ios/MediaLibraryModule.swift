@@ -58,7 +58,7 @@ public class MediaLibraryModule: Module, PhotoLibraryObserverHandler {
       appContext?
         .permissions?
         .askForPermission(
-          usingRequesterClass: requesterClass(writeOnly),
+        usingRequesterClass: requesterClass(writeOnly),
           resolve: promise.resolver,
           reject: promise.legacyRejecter
         )

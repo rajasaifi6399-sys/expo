@@ -13,7 +13,6 @@ import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.withContext
 import java.io.File
 import java.io.IOException
-import kotlin.coroutines.coroutineContext
 
 suspend fun createAlbum(
   context: Context,
